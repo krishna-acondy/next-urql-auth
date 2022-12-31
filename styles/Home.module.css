@@ -1,0 +1,54 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.repositoryName {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.repositories {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.repositories li {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid #e2dfdf;
+  border-radius: 8px;
+}
+
+.repositories li:not(:first-child) {
+  margin-top: 0.5rem;
+}
+
+.repositories li span {
+  font-size: 0.75rem;
+}
+
+.repositories li a {
+  text-decoration: none;
+  color: teal;
+}
+
+.createIssue {
+  max-width: 120px;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  background-color: teal;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.stats {
+  display: flex;
+  gap: 0.5rem;
+}
